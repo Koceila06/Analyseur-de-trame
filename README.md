@@ -28,10 +28,9 @@
 		
 
 <p> <strong> main.py </strong>: Pour tester les  fonctions de reseau.py</p>
-<li><p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
+<p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
 	<ul>
-		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>
-				
+		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>		
 	        <li> trame_to_ligne: Une fonction qui  convertit un fichier de trames en un dictionnaire de chaine de caractére </li>
 				
 		<li>ethernet , type_ethernet : Décode la trame Ethernet et renvoi un dictionnaire contenant ses différents champs</li>
