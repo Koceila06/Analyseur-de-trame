@@ -1,20 +1,21 @@
 # Analyseur de trame réseau
    ## Présentation de l'analyseur :
 
-	<p>L’objectif de ce projet est de programmer un analyseur de protocoles réseau
-	‘offline’. Il prend en entrée un fichier trace contenant les octets capturés
+	 L’objectif de ce projet est de programmer un analyseur de protocoles réseau
+	 ‘offline’. Il prend en entrée un fichier trace contenant les octets capturés
 	 sur un réseau Ethernet. le programme s’exécuter dans une
-	fenêtre de commande (de type terminal).</p>
+	 fenêtre de commande (de type terminal).
 
-   Fonctionnalités :
-
-	1/ L'analyseur est  en mesure de décoder les couches suivantes:
-		-> Couche 2 : Ethernet
-		-> Couche 3 : IP
-		-> Couche 4 : UDP
-		-> Couche 7 : DNS et DHCP
-	2/ A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
-                      ficher texte formaté sous le nom de "Analyseur.txt"
+   ## Fonctionnalités :
+   <strong>L'analyseur est  en mesure de décoder les couches suivantes:</strong>
+<ol>
+	<li> Couche 2 : Ethernet</li>
+	<li>Couche 3 : IP</li>
+	<li>Couche 4 : UDP</li>
+	<li>Couche 7 : DNS et DHCP</li>
+	
+	<strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
+		ficher texte formaté sous le nom de "Analyseur.txt"</strong>
 
 	3/ L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
 	   bruts.  Ce fichier pourra contenir plusieurs
