@@ -15,12 +15,12 @@
 	<li>Couche 4 : UDP</li>
 	<li>Couche 7 : DNS et DHCP</li>
 	</ul>
-	<strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
+   <strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
 		ficher texte formaté sous le nom de "Analyseur.txt"</strong>
 
-	3/ L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
+	<strong>L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
 	   bruts.  Ce fichier pourra contenir plusieurs
-	   trames Ethernet à la suite (sans préambule ni champ FCS)
+		trames Ethernet à la suite (sans préambule ni champ FCS)</strong>
 # Analyseur de trame réseau
    ## Structure de l'analyseur :
 
