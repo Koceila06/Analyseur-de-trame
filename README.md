@@ -28,15 +28,15 @@
 		
 <p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
 	<ul>
-		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>		
-	        <li> trame_to_ligne: Une fonction qui  convertit un fichier de trames en un dictionnaire de chaine de caractére </li>				
+		<li>lire_fichier : Permet de lire un fichier à partir de son nom</li>		
+	        <li> trame_to_ligne : Convertit un fichier de trames en un dictionnaire de chaine de caractére </li>				
 		<li>ethernet , type_ethernet : Décode la trame Ethernet et renvoi un dictionnaire contenant ses différents champs</li>
-		<li>ip : Une fonction qui prend en parametre une trame et renvoi un dictionnaire contenant les différents champs de l'entete  IP</li>
-		<li>udp :Une fonction qui prend en parametre une trame et rend les champs de l'entete UDP</li>
-		<li>bin : Une fonction qui prend un entier et renvoi sa valeur en binaire sous forme de chaine de caractéres</li>
-		<li>pointeur : Une fonction qui prend un pointeur et une trame en parametre ,et retourne la valeur du champs pointé (fonction récursive)</li>
-		<li>dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
-		<li>dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
+		<li>ip : Prend en parametre une trame et renvoi un dictionnaire contenant les différents champs de l'entete  IP</li>
+		<li>udp :Prend en parametre une trame et rend les champs de l'entete UDP</li>
+		<li>bin : Prend un entier et renvoi sa valeur en binaire sous forme de chaine de caractéres</li>
+		<li>pointeur : Prend un pointeur et une trame en parametre ,et retourne la valeur du champs pointé (fonction récursive)</li>
+		<li>dns : Prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
+		<li>dhcp : Prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 	</ul>
 
 <p> <strong> main.py </strong>: permet de </p>
