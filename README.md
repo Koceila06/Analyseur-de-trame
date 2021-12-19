@@ -38,12 +38,15 @@
 		<li><strong>dns :</strong> Prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
 		<li><strong>dhcp :</strong> Prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 	</ul>
-	<li><p> <strong> main.py </strong>: permet de : </p>
+	<li><p> <strong> main.py </strong>: permet de : </p></li>
 </ul>
+</ol>
+<ol>
 <ul> 
 			<li>Faire appel aux fonctions précédentes</li>	
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
-</li></ul>
+</ul>
+</ol>
 
    ## Langage de programmation :
    <p><strong>Python </strong></p>
