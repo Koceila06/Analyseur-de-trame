@@ -24,9 +24,10 @@
 
    ## Structure de l'analyseur :
 
-<strong> Le programme est divisé en 2 fichiers :</strong>
+<strong><li> Le programme est divisé en 2 fichiers :</strong>
+<ul>
 		
-<p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
+	<li><p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p></li>
 	<ul>
 		<li><strong>lire_fichier :</strong> Permet de lire un fichier à partir de son nom</li>		
 	        <li><strong> trame_to_ligne :</strong> Convertit un fichier de trames en un dictionnaire de chaine de caractére </li>				
@@ -39,7 +40,8 @@
 		<li><strong>dhcp :</strong> Prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 	</ul>
 
-<p> <strong> main.py </strong>: permet de </p>
+	<li><p> <strong> main.py </strong>: permet de </p></li>
+	</ul>
 		<ul> 
 			<li>Faire appel aux fonctions précédentes</li>	
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
