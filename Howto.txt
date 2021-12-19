@@ -1,0 +1,20 @@
+sur linux, windows ou mac:
+	-Prérequis:
+		-Python (avec les biblioteques : numpy, random, matplotlib, csv, relativedelta).
+		-Un fichier ".txt" contenant une ou plusieurs trames, qui commence toutes par un offset de valeur 0.
+	-Comment le lancer:
+		-lancer la commande "python main.py" sur un terminal (ce mettre d'abord sur le dossier où ce trouve le fichier)
+		où lancer la commande "make" sur un terminal (pour linux et mac), pour windows, entré dans le dossier main puis cliqué sur l'éxecutable main
+		-le programe vous demandera sur le terminal de saisir le nom du fichier txt qui contiens les trames, et il le fera jusqu'a ce que le nom entré est correct. 
+	-En sortie:
+		-Cas échec:
+			-si la trame est incompléte, un message d'erreur est affiché sur le terminal indiquant la ligne et le numero de la trame incompléte
+		-Sinon:
+			1-on affiche éthernet avec tout ces champs
+			2-Si le champ type d'éthernet correspand à IPv4, on affiche IPv4 avec tout ces champs (avec options)
+			3-Si le champ protocol d'IPv4 correspand à UDP, on affiche UDP avec tout ces champs
+			4-Si le champ source port où destionation port d'UDP est égale à 67, on affiche DHCP avec tout ces champs (avec les options)
+			5-Si le champ source port où destionation port d'UDP est égale à 53, on affiche DNS avec tout ces champs
+			
+			
+			

@@ -1,0 +1,294 @@
+
+Frame 0: 426 bytes on wire (3408 bits), 426 bytes captured (3408 bits)
+
+	Ethernet II, Src: (00:09:0f:09:00:02), Dst: (a8:66:7f:22:e3:c6)
+		Destination : (a8:66:7f:22:e3:c6)
+		Source : (00:09:0f:09:00:02)
+		Type : IPv4 (0x0800)
+
+	Internet Protocol Version 4, Src: (134.157.0.129), Dst: (10.64.10.248)
+		0100 .... = Version : 4 
+		 ....0101 = Header Length : 20 
+		Differentiated Services Field :0x00 
+		Total Length :412 
+		Identification :0x442f 
+		Flags: 0b000 
+				0... .... = Reserved bit :Not set 
+				.0... .... = Don't fragment  :Not set 
+				..0... .... = More fragment  :Not set 
+				...0000000000000 = Fragment offset:0 
+		Time to Live :62 
+		Protocol:UDP (17) 
+		Header Checksum: 0x9a cc [Unverified]
+		Source address: 0x134.157.0.129
+		Destination address: 10.64.10.248
+
+	User Datagram Protocol, Src Port: 53, Dst Port: 51819
+		Source Port: 53
+		Destination Port: 51819
+		Length: 392
+		Checksum: 0x3ce2 [unverified]
+
+	Domain Name System1 (reponse)
+		Transaction ID: 0x23fe
+		Flags: 0x8180
+				1... .... .... .... =  Response: Message is a1 (reponse)
+				.0000... .... .... =  Opcode: 0  (Requête standard (Query))
+				.... .0.. .... .... =  Authoritative nameservers: Server is not an anthority for domain
+				.... ..0. .... .... =  Truncated: Message is not truncated
+				.... ...1 .... .... =  Recursion is desired
+				.... .... 1... .... =  Recursion is available
+				.... .... .0.. .... =  Z: reserved (0)
+				.... .... ..0. .... =  Answer authenticated: Answer/authority portion 0 authentic
+				.... .... ...0 .... =  authenticated data: is not acceptable
+				.... .... .... 0000 =  Reply code: (0)
+		Questions: 1
+		Answer RRs: 1
+		Authority RRs: 8
+		Additional RRs: 10
+		Queries 
+				NAME: e6987.a.akamaiedge.net [Name Length :21]
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+
+		Answers 
+				NAME: e6987.a.akamaiedge.net [Name Length :21]
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 16 (seconds=+16)
+				Data length: 4
+				Adress: 
+
+		Authoritative nameservers 
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n5a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n0a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n3a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n1a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n4a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n6a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n2a.akamaiedge.net
+						------
+				NAME: a.akamaiedge.net
+				TYPE: NS (2)
+				CLASS: IN (0x0001)
+				TTL: 670 (minutes=+11, seconds=+10)
+				Data length: 6
+				Name Server: n7a.akamaiedge.net
+
+		Additional records 
+				NAME: n0a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 1846 (minutes=+30, seconds=+46)
+				Data length: 4
+				Address: 88.221.81.192
+						------
+				NAME: n0a.akamaiedge.net
+				TYPE: AAAA (28)
+				CLASS: IN (0x0001)
+				TTL: 1846 (minutes=+30, seconds=+46)
+				Data length: 16
+				Address: 2600:1480:e800:0000:0000:0000:0000:00c0
+						------
+				NAME: n1a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 1846 (minutes=+30, seconds=+46)
+				Data length: 4
+				Address: 195.10.9.95
+						------
+				NAME: n1a.akamaiedge.net
+				TYPE: AAAA (28)
+				CLASS: IN (0x0001)
+				TTL: 1846 (minutes=+30, seconds=+46)
+				Data length: 16
+				Address: 2a02:26f0:005c:f000:0f29:24c4:a259:2445
+						------
+				NAME: n2a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 846 (minutes=+14, seconds=+6)
+				Data length: 4
+				Address: 23.200.87.228
+						------
+				NAME: n3a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 846 (minutes=+14, seconds=+6)
+				Data length: 4
+				Address: 23.200.87.227
+						------
+				NAME: n4a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 846 (minutes=+14, seconds=+6)
+				Data length: 4
+				Address: 23.200.87.236
+						------
+				NAME: n5a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 867 (minutes=+14, seconds=+27)
+				Data length: 4
+				Address: 23.200.87.226
+						------
+				NAME: n6a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 867 (minutes=+14, seconds=+27)
+				Data length: 4
+				Address: 195.10.9.93
+						------
+				NAME: n7a.akamaiedge.net
+				TYPE: A (1)
+				CLASS: IN (0x0001)
+				TTL: 1770 (minutes=+29, seconds=+30)
+				Data length: 4
+				Address: 23.62.3.71
+
+Frame 1: 138 bytes on wire (1104 bits), 138 bytes captured (1104 bits)
+
+	Ethernet II, Src: (08:00:20:0a:70:66), Dst: (08:00:20:0a:ac:96)
+		Destination : (08:00:20:0a:ac:96)
+		Source : (08:00:20:0a:70:66)
+		Type : IPv4 (0x0800)
+
+	Internet Protocol Version 4, Src: (132.227.61.5), Dst: (192.33.159.6)
+		0100 .... = Version : 4 
+		 ....1111 = Header Length : 60 
+		Differentiated Services Field :0x00 
+		Total Length :124 
+		Identification :0xcbc9 
+		Flags: 0b000 
+				0... .... = Reserved bit :Not set 
+				.0... .... = Don't fragment  :Not set 
+				..0... .... = More fragment  :Not set 
+				...0000000000000 = Fragment offset:0 
+		Time to Live :255 
+		Protocol: 
+		Header Checksum: 0xb9 7f [Unverified]
+		Source address: 0x132.227.61.5
+		Destination address: 192.33.159.6
+		Options: 7
+			Type: 7
+			Nom: Record Route (RR)
+			Longeur: 27
+			Pointeur: 04
+
+Frame 2: 314 bytes on wire (2512 bits), 314 bytes captured (2512 bits)
+
+	Ethernet II, Src: (00:0b:82:01:fc:42), Dst: (ff:ff:ff:ff:ff:ff)
+		Destination : (ff:ff:ff:ff:ff:ff)
+		Source : (00:0b:82:01:fc:42)
+		Type : IPv4 (0x0800)
+
+	Internet Protocol Version 4, Src: (0.0.0.0), Dst: (255.255.255.255)
+		0100 .... = Version : 4 
+		 ....0101 = Header Length : 20 
+		Differentiated Services Field :0x00 
+		Total Length :300 
+		Identification :0xa837 
+		Flags: 0b000 
+				0... .... = Reserved bit :Not set 
+				.0... .... = Don't fragment  :Not set 
+				..0... .... = More fragment  :Not set 
+				...0000000000000 = Fragment offset:0 
+		Time to Live :250 
+		Protocol:UDP (17) 
+		Header Checksum: 0x17 8a [Unverified]
+		Source address: 0x0.0.0.0
+		Destination address: 255.255.255.255
+
+	User Datagram Protocol, Src Port: 68, Dst Port: 67
+		Source Port: 68
+		Destination Port: 67
+		Length: 280
+		Checksum: 0x9fbd [unverified]
+
+	Dynamic Host Configuration Protocol: (Request) 
+		Message type: Boot Request (1)
+		Hardware type: Ethernet (0x01)
+		Hardware address length: 6
+		Hops: 0
+		Transaction ID: 0x00003d1e
+		Seconds elapsed: 0
+		Bootp flags: 0x0000
+				0... .... .... .... = Broadcast flag: Unicast
+				0... .... .... .... = Broadcast flag: 0x0000
+		Client IP address: 0.0.0.0
+		Your (client) IP address: 0.0.0.0
+		Next server IP address: 0.0.0.0
+		Relay agent IP address: 0.0.0.0
+		Client MAC address: (00:0b:82:01:fc:42:)
+		Client hardware address padding: 00000000000000000000
+		Server host name: not given
+		Boot file name: not given
+		Magic cookie: DHCP
+
+		Option: (53) DHCP Message Type
+			Length :1
+			DHCP : Request (3)
+
+		Option: (61) Client Identifier
+			Length :7
+			Hardware type: Ethernet (0x01)
+			Client MAC address : 00:0b:82:01:fc:42
+
+		Option: (50) Requested IP Address
+			Length :4
+			Requested IP Address :192.168.0.10
+
+		Option: (54) DHCP Server Identification
+			Length :4
+			DHCP Server Identification :192.168.0.1
+
+		Option: (55) Parameter Request List
+			Length :4
+			Parameter Request List Item : (1) Subnet Mask
+			Parameter Request List Item : (3) Router
+			Parameter Request List Item : (6) Domaine Name Server
+			Parameter Request List Item : (42) Network Time Protocol Servers
+
+		Option: (255) End
+		
