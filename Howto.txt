@@ -4,7 +4,7 @@ Sur Linux, Windows ou Mac:
 		-Un fichier ".txt" contenant une ou plusieurs trames, qui commence toutes par un offset de valeur 0.
 	-Comment le lancer:
 		-lancer la commande "python main.py" sur un terminal (ce mettre d'abord sur le dossier où ce trouve le fichier)
-		où lancer la commande "make" sur un terminal (pour linux et mac), pour windows, entré dans le dossier main puis cliqué sur l'éxecutable main
+		ou lancer la commande "make" sur un terminal (pour linux et mac), pour windows, entré dans le dossier main puis cliqué sur l'éxecutable main
 		-le programe vous demandera sur le terminal de saisir le nom du fichier txt qui contiens les trames, et il le fera jusqu'a ce que le nom entré est correct. 
 	-En sortie:
 		-Cas échec:
