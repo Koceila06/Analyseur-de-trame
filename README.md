@@ -49,9 +49,9 @@
 
 ## Langage de programmation :
 
-   		<p><strong>Python </strong></p>
+<p><strong>Python </strong></p>
 		
 ## Auteurs :
 
-   		<p><strong>Koceila KEMICHE - Ghiles OUHENIA</strong></p>
+<p><strong>Koceila KEMICHE - Ghiles OUHENIA</strong></p>
 	
