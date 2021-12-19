@@ -1,10 +1,10 @@
 # Analyseur de trame réseau
    ## Présentation de l'analyseur :
 
-	 L’objectif de ce projet est de programmer un analyseur de protocoles réseau
+<p>	 L’objectif de ce projet est de programmer un analyseur de protocoles réseau
 	 ‘offline’. Il prend en entrée un fichier trace contenant les octets capturés
 	 sur un réseau Ethernet. le programme s’exécuter dans une
-	 fenêtre de commande (de type terminal).
+	 fenêtre de commande (de type terminal). </p>
 
    ## Fonctionnalités :
    <ol>
@@ -19,9 +19,9 @@
 	    ficher texte formaté sous le nom de "Analyseur.txt" </strong></li>
 
   <strong><li> L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
-	   bruts. ce fichier pourra contenir plusieurs
+	   bruts, ce fichier pourra contenir plusieurs
 		trames Ethernet à la suite (sans préambule ni champ FCS) </strong></li>
-# Analyseur de trame réseau
+
    ## Structure de l'analyseur :
 
 		Le programme est divisé en 2 fichiers :
