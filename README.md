@@ -46,9 +46,8 @@
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
 </ul>
 </ul>
-   ## Langage de programmation :
+## Langage de programmation :
    <p><strong>Python </strong></p>
-
-   ## Auteurs :
+## Auteurs :
    <p><strong>Koceila KEMICHE - Ghiles OUHENIA</strong></p>
 	
