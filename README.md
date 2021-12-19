@@ -28,7 +28,7 @@
 		
 
 <p> <strong> main.py </strong>: Pour tester les  fonctions de reseau.py</li> </p>
-<p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
+<li><p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p></li>
 	<ul>
 		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>
 				
