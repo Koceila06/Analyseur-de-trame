@@ -7,8 +7,10 @@
 	 fenêtre de commande (de type terminal).
 
    ## Fonctionnalités :
-   <strong>L'analyseur est  en mesure de décoder les couches suivantes: </strong>
-<ol>
+   <ol>
+	<ul>
+		<li> L'analyseur est  en mesure de décoder les couches suivantes: </li>
+	</ul>
 	<ul>
 	<li> Couche 2 : Ethernet</li>
 	<li>Couche 3 : IP</li>
