@@ -26,8 +26,6 @@
 
 <strong> Le programme est divisé en 2 fichiers :</strong>
 		
-
-<p> <strong> main.py </strong>: Pour tester les  fonctions de reseau.py</p>
 <p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
 	<ul>
 		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>		
@@ -40,11 +38,13 @@
 		<li>dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
 		<li>dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 	</ul>
-		# main.py : permet de :
 
-				->  Faire appel aux fonctions précédentes
-	
-				-> Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture
+<p> <strong> main.py </strong>:permet de </p>
+
+			<ul> 
+			<li>Faire appel aux fonctions précédentes</li>	
+			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
+			</ul>
 
    Langage de programmation : Python 
 
