@@ -46,7 +46,6 @@
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
 </ul>
 </ul>
-</ol>
    ## Langage de programmation :
    <p><strong>Python </strong></p>
 
