@@ -8,7 +8,7 @@
 
    ## Fonctionnalités :
    <ol>
-		<li> L'analyseur est  en mesure de décoder les couches suivantes: </li>
+	<li><strong> L'analyseur est  en mesure de décoder les couches suivantes: </strong></li>
 	<ul>
 	<li> Couche 2 : Ethernet</li>
 	<li>Couche 3 : IP</li>
