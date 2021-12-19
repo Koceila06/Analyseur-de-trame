@@ -28,7 +28,7 @@
 		
 
 <p> <strong> main.py </strong>: Pour tester les  fonctions de reseau.py</p>
-<li><p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p></li>
+<li><p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
 	<ul>
 		<li>lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom</li>
 				
@@ -47,6 +47,7 @@
 		<li>dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
 
 		<li>dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
+	</li>
 	</ul>
 		# main.py : permet de :
 
