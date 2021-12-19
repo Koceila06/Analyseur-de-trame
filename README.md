@@ -16,9 +16,9 @@
 	<li>Couche 7 : DNS et DHCP</li>
 	</ul>
     <li><strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
-		ficher texte formaté sous le nom de "Analyseur.txt" </strong>
+	    ficher texte formaté sous le nom de "Analyseur.txt" </strong></li>
 
-  <strong> L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
+  <strong><li> L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
 	   bruts. ce fichier pourra contenir plusieurs
 		trames Ethernet à la suite (sans préambule ni champ FCS) </strong></li>
 # Analyseur de trame réseau
