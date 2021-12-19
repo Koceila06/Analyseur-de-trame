@@ -1,4 +1,4 @@
-sur linux, windows ou mac:
+Sur Linux, Windows ou Mac:
 	-Prérequis:
 		-Python (avec les biblioteques : numpy, random, matplotlib, csv, relativedelta).
 		-Un fichier ".txt" contenant une ou plusieurs trames, qui commence toutes par un offset de valeur 0.
@@ -11,10 +11,10 @@ sur linux, windows ou mac:
 			-si la trame est incompléte, un message d'erreur est affiché sur le terminal indiquant la ligne et le numero de la trame incompléte
 		-Sinon:
 			1-on affiche éthernet avec tout ces champs
-			2-Si le champ type d'éthernet correspand à IPv4, on affiche IPv4 avec tout ces champs (avec options)
-			3-Si le champ protocol d'IPv4 correspand à UDP, on affiche UDP avec tout ces champs
-			4-Si le champ source port où destionation port d'UDP est égale à 67, on affiche DHCP avec tout ces champs (avec les options)
-			5-Si le champ source port où destionation port d'UDP est égale à 53, on affiche DNS avec tout ces champs
+			2-Si le champ "type" d'éthernet correspand à IPv4, on affiche IPv4 avec tout ces champs (avec options)
+			3-Si le champ "protocol" d'IPv4 correspand à UDP, on affiche UDP avec tout ces champs
+			4-Si le champ "source port" ou destionation "port d'UDP" est égale à 67, on affiche DHCP avec tout ces champs (avec les options)
+			5-Si le champ "source port" ou destionation "port d'UDP" est égale à 53, on affiche DNS avec tout ces champs
 			
 			
 			
