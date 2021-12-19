@@ -18,9 +18,11 @@
    <strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
 		ficher texte formaté sous le nom de "Analyseur.txt" </strong>
 
-   <strong> L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
-	   bruts.  Ce fichier pourra contenir plusieurs
-		trames Ethernet à la suite (sans préambule ni champ FCS) </strong>
+   <li><strong> L'analyseur prend en entrée un fichier trace (format texte) contenant des octets
+	   bruts. </strong> </li>
+	
+	<li><strong>   Ce fichier pourra contenir plusieurs
+		trames Ethernet à la suite (sans préambule ni champ FCS) </strong></li>
 # Analyseur de trame réseau
    ## Structure de l'analyseur :
 
