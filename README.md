@@ -47,6 +47,7 @@
 				<li> dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
 
 				<li> dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
+	</ul>
 		# main.py : permet de :
 
 				->  Faire appel aux fonctions précédentes
