@@ -9,11 +9,12 @@
    ## Fonctionnalités :
    <strong>L'analyseur est  en mesure de décoder les couches suivantes:</strong>
 <ol>
+	<ul>
 	<li> Couche 2 : Ethernet</li>
 	<li>Couche 3 : IP</li>
 	<li>Couche 4 : UDP</li>
 	<li>Couche 7 : DNS et DHCP</li>
-	
+	</ul>
 	<strong> A chaque exécution, le résultat de l'analyseur est sauvegardé dans un
 		ficher texte formaté sous le nom de "Analyseur.txt"</strong>
 
