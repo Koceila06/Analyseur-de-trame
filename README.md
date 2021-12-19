@@ -26,7 +26,7 @@
 
 <strong> Le programme est divisé en 2 fichiers :</strong>
 		
-	<li> reseau.py = L'ensemble des fonction est codé dans ce fichier</li>
+<p> <strong> reseau.py</strong> = L'ensemble des fonction est codé dans ce fichier</p>
 	<li> main.py : Pour tester les  fonctions de reseau.py</li>
 	<li> reseau.py : contient 10 fonctions :</li>
 
