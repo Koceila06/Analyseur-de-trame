@@ -28,25 +28,25 @@
 		
 
 <p> <strong> main.py </strong>: Pour tester les  fonctions de reseau.py</li> </p>
-<p> <strong> reseau.py</strong> = L'ensemble des fonction est codé dans ce fichier :</p>
-
-				-> lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom
+<p> <strong> reseau.py</strong> : L'ensemble des fonction est codé dans ce fichier :</p>
+	<ul>
+				<li> lire_fichier : Une fonction qui permet de lire un fichier à partir de son nom </li>
 				
-			        -> trame_to_ligne: Une fonction qui  convertit un fichier de trames en un dictionnaire de chaine de caractére 
+			        <li> trame_to_ligne: Une fonction qui  convertit un fichier de trames en un dictionnaire de chaine de caractére </li>
 				
-				-> ethernet , type_ethernet : Décode la trame Ethernet et renvoi un dictionnaire contenant ses différents champs
+				<li>> ethernet , type_ethernet : Décode la trame Ethernet et renvoi un dictionnaire contenant ses différents champs</li>
 				
-				-> ip : Une fonction qui prend en parametre une trame et renvoi un dictionnaire contenant les différents champs de l'entete  IP
+				<li> ip : Une fonction qui prend en parametre une trame et renvoi un dictionnaire contenant les différents champs de l'entete  IP</li>
 
-				-> udp :Une fonction qui prend en parametre une trame et rend les champs de l'entete UDP
+				<li> udp :Une fonction qui prend en parametre une trame et rend les champs de l'entete UDP</li>
 
-				-> bin : Une fonction qui prend un entier et renvoi sa valeur en binaire sous forme de chaine de caractéres
+				<li> bin : Une fonction qui prend un entier et renvoi sa valeur en binaire sous forme de chaine de caractéres</li>
 
-				-> pointeur : Une fonction qui prend un pointeur et une trame en parametre ,et retourne la valeur du champs pointé (fonction récursive)
+				<li> pointeur : Une fonction qui prend un pointeur et une trame en parametre ,et retourne la valeur du champs pointé (fonction récursive)</li>
 
-				-> dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS
+				<li> dns :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DNS</li>
 
-				-> dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP
+				<li> dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 		# main.py : permet de :
 
 				->  Faire appel aux fonctions précédentes
