@@ -24,7 +24,7 @@
 
    ## Structure de l'analyseur :
 
-		<strong> Le programme est divisé en 2 fichiers :</strong>
+<strong> Le programme est divisé en 2 fichiers :</strong>
 		
 			<li> reseau.py = L'ensemble des fonction est codé dans ce fichier</li>
 			<li> main.py : Pour tester les  fonctions de reseau.py</li>
