@@ -39,11 +39,12 @@
 		<li>dhcp : :Une fonction qui prend une trame en parametre ,et renvoi un dictionnaire contenant les différents champs de DHCP</li>
 	</ul>
 
-<p> <strong> main.py </strong>:permet de </p>
-
+<p> <strong> main.py </strong>: permet de </p>
 			<ul> 
+	
 			<li>Faire appel aux fonctions précédentes</li>	
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
+	
 			</ul>
 
    Langage de programmation : Python 
