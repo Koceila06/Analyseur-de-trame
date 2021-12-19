@@ -40,6 +40,7 @@
 	</ul>
 	<li><p> <strong> main.py </strong>: permet de : </p></li>
 </ul>
+</ul>
 		<ul> 
 			<li>Faire appel aux fonctions précédentes</li>	
 			<li>Enregistre le résultat renvoyé dans un fichier nommé " "Analyseur.txt" pour faciliter la lecture</li>
