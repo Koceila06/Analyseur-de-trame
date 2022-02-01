@@ -53,7 +53,7 @@ def trame_to_ligne(trame):
                         print(" La ligne ",nb_ligne," de la trame ",nb_trame, "est incomplet")
                         return
                 debut_ligne+=1
-            #pas debur de ligne
+            #pas debut de ligne
             else :
                 #ignorer les octets qui ne sont pas sur 2 octets
                 if len(octet) != 2 :
@@ -61,7 +61,7 @@ def trame_to_ligne(trame):
                 try:
                     n=int(octet,16)
                 except:
-                    #ignorer les lettre >f
+                    #ignorer les lettre > "f"
                     continue
                 s=s+octet
                 nb_octet_lu+=1
@@ -249,7 +249,7 @@ def udp(trame) :
             i+=1
     return dico
 """
-Une fonction qui prend un entier et renvoi sa valeur en binaire sous forme de chaine de caractére
+Une fonction qui prend un entier et renvoie sa valeur en binaire sous forme de chaine de caractére
 n:l'entier à convertir
 """
 def bin(n):
@@ -265,7 +265,7 @@ def bin(n):
         res="0"+res
     return res
 """
-Une fonction qui prend un ointeur et une trame en parametre ,et retourne la valeur pointée
+Une fonction qui prend un pointeur et une trame en parametre ,et retourne la valeur pointée
 :pnt: Le pointeur 
 :trame: La trame
 :deb_dns: Le début de la trame( on utilise la foonction pour décoder DNS)
@@ -811,7 +811,7 @@ def dhcp(trame):
                 j-=1
         i+=8
         s=""
-        #Client) IP address
+        #Client IP address
         for j in range(i,i+8):
             if  (j)%2==0:
                 f=int(trame[j],16)
